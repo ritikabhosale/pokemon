@@ -1,7 +1,7 @@
 #! /bin/bash
 
 source tests/assert_expectation.sh
-source scripts/generate_cards_container.sh
+source scripts/generate_cards.sh
 
 function test_capitalize_word () {
     local word="$1"

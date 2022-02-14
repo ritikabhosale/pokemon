@@ -1,6 +1,6 @@
 
 source scripts/generate_sidebar.sh
-source scripts/generate_cards_container.sh
+source scripts/generate_cards.sh
 
 function remove_header () {
     tail -n+2 <<< "$1"
